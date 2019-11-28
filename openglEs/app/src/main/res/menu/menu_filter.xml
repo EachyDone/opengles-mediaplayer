@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mDefault"
+        android:title="原图"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mGray"
+        android:title="黑白" />
+    <item
+        android:id="@+id/anti_color"
+        android:title="反色" />
+    <item
+        android:id="@+id/add_contrast_ratio"
+        android:title="增加对比度" />
+    <item
+        android:id="@+id/brighten"
+        android:title="变亮" />
+    <item
+        android:id="@+id/darken"
+        android:title="变暗" />
+    <item
+        android:id="@+id/vague"
+        android:title="模糊" />
+</menu>
